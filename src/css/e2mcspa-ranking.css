@@ -1,0 +1,81 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	min-height: 100%;
+	width: 100%;
+
+	background-image: url("../img/bkg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.center-container {
+	width: 100%;
+
+	background-image: url("../img/moneda-transparente.png");
+	background-size: 300px;
+	background-position: center 10px;
+	background-repeat: no-repeat;
+}
+
+.center-content {
+	text-align: center;
+	padding-top: 250px;
+}
+
+.center-wrapper {
+	color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	padding: 32px;
+}
+
+.contestant {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    margin: 16px;
+    padding: 10px 20px;
+    box-shadow: 0 0 8px 2px rgba(255, 255, 255, .4);
+}
+
+.contestant.zero {
+	opacity: .5;
+}
+
+.contestant p {
+    margin: 0;
+    display: inline-block;
+}
+
+.contestant .rank {
+    margin-right: 32px;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contestant .name {
+    font-size: 2em;
+}
+
+.contestant .score {
+    margin-left: 32px;
+	font-size: 2em;
+}
+
+#view-landing {
+    padding-top: 300px;
+}
+
+#view-landing h1 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 4em;
+    margin-bottom: 50px;
+}

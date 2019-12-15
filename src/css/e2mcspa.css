@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	min-height: 100%;
+	width: 100%;
+
+	background-image: url("../img/bkg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.center-container {
+	width: 100%;
+
+	background-image: url("../img/moneda-transparente.png");
+	background-size: 500px;
+	background-position: center 10px;
+	background-repeat: no-repeat;
+}
+
+.center-content {
+	text-align: center;
+	padding-top: 400px;
+}
+
+.center-wrapper {
+	color: #fff;
+	max-width: 364px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 32px;
+}
+
+@media (max-width: 600px) {
+	.center-container {
+		background-size: 400px;
+	}
+
+	.center-content {
+		padding-top: 350px;
+	}
+}
